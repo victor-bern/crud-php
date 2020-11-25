@@ -1,0 +1,31 @@
+{
+  "name": "up-inside/fsphp",
+  "description": "Full Stack PHP Developer",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vitu",
+      "email": "vitu@vitu.com",
+      "homepage": "https://xvideos.com",
+      "role": "Pronatec"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-mbstring": "*",
+    "components/font-awesome": "^5.15",
+    "eternicode/bootstrap-datepicker": "^1.9",
+    "components/jquery": "^3.5",
+    "mdixon18/fontawesome": "^0.2.1",
+    "select2/select2": "^4.0",
+    "fortawesome/font-awesome": "^5.15"
+  }
+}
